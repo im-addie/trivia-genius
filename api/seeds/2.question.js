@@ -6,6 +6,6 @@
 const {getSeedQuestions} = require('../src/utility/utils')
 
 exports.seed = async function(knex) {
-  await knex('question').insert(getSeedQuestions());
-};
+  await knex('question').insert(getSeedQuestions())
+}
 
